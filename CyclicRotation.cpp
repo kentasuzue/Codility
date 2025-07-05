@@ -38,15 +38,16 @@ each element of array A is an integer within the range [−1,000..1,000].
 In your solution, focus on correctness. The performance of your solution will not be the focus of the assessment.
 */
 
-#include <iostream>
-#include <vector>
-
-using namespace std;
 // you can use includes, for example:
 // #include <algorithm>
 
 // you can write to stdout for debugging purposes, e.g.
 // cout << "this is a debug message" << endl;
+
+#include <iostream>
+#include <vector>
+
+using namespace std;
 
 vector<int> solution(vector<int> &A, int K) {
     // Implement your solution here
