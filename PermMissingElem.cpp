@@ -34,6 +34,8 @@ each element of array A is an integer within the range [1..(N + 1)].
 #include <unordered_set>
 #include <iostream>
 
+using namespace std;
+
 int solution(vector<int> &A) {
     // Implement your solution here
 
