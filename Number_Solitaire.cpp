@@ -60,6 +60,8 @@ each element of array A is an integer within the range [−10,000..10,000].
 // so a vector element with LOW_INT was never accessed after initialization
 #define LOW_INT -200'000'000
 
+using namespace std;
+
 vector<int> dp_answer;
 
 // dp(i) = A[i] + dp(j)
